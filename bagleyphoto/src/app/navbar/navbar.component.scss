@@ -1,0 +1,53 @@
+@import '../../styles.scss';
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 5vw;
+    align-items: center;
+}
+
+.navbar .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5em;
+}
+
+.navbar .center p {
+    font-weight: $wt_heavy;
+    margin: 0;
+    padding: 0.5em 0;
+}
+
+.navbar .center .thin {
+    font-weight: $wt_light;
+}
+
+$nav-gap: 2em;
+
+.navbar .left {
+    display: flex;
+    justify-content: start;
+    gap: $nav-gap;
+}
+.navbar .right {
+    display: flex;
+    justify-content: end;
+    gap: $nav-gap;
+}
+
+.navbar a {
+    cursor: pointer;
+    text-decoration: none;
+    color: $primary;
+    transition: all 0.1s ease-in-out;
+}
+
+.navbar a:hover {
+    color: $secondary;
+}
+.navbar .active {
+    font-weight: $wt_heavy;
+    color: $secondary;
+}

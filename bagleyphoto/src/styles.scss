@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap';
+
+$primary: #0e1622;
+$secondary: #395c91;
+$wt_light: 100;
+$wt_med: 300;
+$wt_heavy: 800;
+
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    color: $primary;
+    font-family: 'Inter', sans-serif;
+    font-weight: $wt_med;
+}
+
+body {
+    margin: 0;
+}

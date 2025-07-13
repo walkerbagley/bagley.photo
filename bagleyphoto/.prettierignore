@@ -1,0 +1,6 @@
+/.angular
+/.vscode
+/dataconnect*
+/dist
+/tmp
+/node_modules
